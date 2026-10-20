@@ -1,0 +1,358 @@
+{
+  "result": [
+    {
+      "sys_id": "a28140446f96288295d82980ff37d19c",
+      "parent": "473bd358610e6a64e1301617c2dff335",
+      "child": "b8db0672f42d47cc00d4af5974273ca3",
+      "type": "Virtualized by::Virtualizes"
+    },
+    {
+      "sys_id": "5913f9d3785299f4175ba98df8140102",
+      "parent": "fff9f5850d557b618a175dfebfc00dc8",
+      "child": "2d534dd0cf8ebc5accc56569f9e8a369",
+      "type": "Virtualized by::Virtualizes"
+    },
+    {
+      "sys_id": "1ac70ec0ab8ddeb45230dfbd5553b2fe",
+      "parent": "3f4df561f319c12507f194f9c1156d6d",
+      "child": "35ebd32d9ad620ab48212ddb45b89cd9",
+      "type": "Virtualized by::Virtualizes"
+    },
+    {
+      "sys_id": "7ed70ed7b194990b6961929e546e035a",
+      "parent": "90604f621d48a071ab61a7b1793b4c32",
+      "child": "b8db0672f42d47cc00d4af5974273ca3",
+      "type": "Virtualized by::Virtualizes"
+    },
+    {
+      "sys_id": "d045dd1c668409e3f1f8343ea99f1318",
+      "parent": "bf780e3ff6b751f79b7492459b1bc895",
+      "child": "71710434134c6c92ec5b227cdfde4fbf",
+      "type": "Virtualized by::Virtualizes"
+    },
+    {
+      "sys_id": "50843242168b1625746f78910964fbbf",
+      "parent": "4fdc6e1bedcb8cb60692dc639424aed5",
+      "child": "41357e8c30a900ad939b462de645f129",
+      "type": "Virtualized by::Virtualizes"
+    },
+    {
+      "sys_id": "c5c5b37af85e06a11dad09b252c21221",
+      "parent": "9793b9b41374814632c5bd89b70b3420",
+      "child": "a8b317fa18d0752b1825bc5430beb45f",
+      "type": "Virtualized by::Virtualizes"
+    },
+    {
+      "sys_id": "fcf56188d32e6dcd83bc9478dd6ac7b8",
+      "parent": "fbdd3933cbd58bf61efd76e9ce3714af",
+      "child": "ff002d4d902059e4ff9ab5c29f044aed",
+      "type": "Virtualized by::Virtualizes"
+    },
+    {
+      "sys_id": "764414fd8ae769edde8ede0ba85c6e4a",
+      "parent": "8186a57611a726095eddbbbfa9597663",
+      "child": "bdd640fb06671ad11c80317fa3b1799d",
+      "type": "Virtualized by::Virtualizes"
+    },
+    {
+      "sys_id": "5c9d927d84b871bb300568d20de051a6",
+      "parent": "a2b5b4985cb85aedf5f62c976efb63b1",
+      "child": "35ebd32d9ad620ab48212ddb45b89cd9",
+      "type": "Virtualized by::Virtualizes"
+    },
+    {
+      "sys_id": "71299889a01ac9927f9d3e64c1a6423b",
+      "parent": "a6846099f7294951859131d2bbda0242",
+      "child": "c04a96c4f3b63fe1d184332417e8392a",
+      "type": "Virtualized by::Virtualizes"
+    },
+    {
+      "sys_id": "218a15368c99a894445dcc38341c6494",
+      "parent": "44b591f797ac6aa8bb2488a3d36357b6",
+      "child": "47229389571aa8766c307511b2b9437a",
+      "type": "Virtualized by::Virtualizes"
+    },
+    {
+      "sys_id": "7c16128db2c08394e17f29e170286046",
+      "parent": "76f72255c01f36bf3e6dd58b7367c28d",
+      "child": "71710434134c6c92ec5b227cdfde4fbf",
+      "type": "Virtualized by::Virtualizes"
+    },
+    {
+      "sys_id": "9bdf0377a14923c2f920264c0763fcd0",
+      "parent": "2e8d0e87533420e6d9d80b8d7e8adee7",
+      "child": "d7c524a55304317faf42e12f3838b326",
+      "type": "Virtualized by::Virtualizes"
+    },
+    {
+      "sys_id": "8d03c91e4f8d5238288b78b5b5b453ca",
+      "parent": "b380c73a989d9d4ae15ca6664797b2c9",
+      "child": "8dcdcd03969b666205628059568cc69b",
+      "type": "Virtualized by::Virtualizes"
+    },
+    {
+      "sys_id": "3985fb6217dc8eff687213f98d605936",
+      "parent": "b856d0353dc9829015eabb2730e912f2",
+      "child": "bdd640fb06671ad11c80317fa3b1799d",
+      "type": "Virtualized by::Virtualizes"
+    },
+    {
+      "sys_id": "a5d04d531e1242e3f27292b6762172ed",
+      "parent": "72bb912d7da67785b63b4dc3a559e463",
+      "child": "d7c524a55304317faf42e12f3838b326",
+      "type": "Virtualized by::Virtualizes"
+    },
+    {
+      "sys_id": "4ab7706eb77350caeec259dc7f95897c",
+      "parent": "a9f948b24e6384bb3e493f43b118f68d",
+      "child": "ff5e9ff0ff50bde4382567b85cabcc97",
+      "type": "Virtualized by::Virtualizes"
+    },
+    {
+      "sys_id": "d5b077e06a5d932b45ff2c83b495db4e",
+      "parent": "bef59fe6ff233d5f6cedd15d58007c02",
+      "child": "dd463c09475287aa5408f9ac6601ddd0",
+      "type": "Virtualized by::Virtualizes"
+    },
+    {
+      "sys_id": "74eff5453e65260378e3654bfaf14ff0",
+      "parent": "3b048a8b405bfdc94e7ed827455ac762",
+      "child": "2d534dd0cf8ebc5accc56569f9e8a369",
+      "type": "Virtualized by::Virtualizes"
+    },
+    {
+      "sys_id": "ebff8d1530cbd7556232b17a25074181",
+      "parent": "c31edbbcf36cb62b892e6161be2d740a",
+      "child": "b856d0353dc9829015eabb2730e912f2",
+      "type": "Runs on::Runs"
+    },
+    {
+      "sys_id": "22f235f2e11b868dbf0d073d821c1336",
+      "parent": "98c7472a864e9a13c29cfc0cfa02eaec",
+      "child": "bef59fe6ff233d5f6cedd15d58007c02",
+      "type": "Runs on::Runs"
+    },
+    {
+      "sys_id": "dabac50dca3dd859c5ce099c46b82659",
+      "parent": "88bd13d1b540b30e039f3a254d6168bd",
+      "child": "ff5e9ff0ff50bde4382567b85cabcc97",
+      "type": "Runs on::Runs"
+    },
+    {
+      "sys_id": "81fb18b3c9a7d91fef2ae71357021049",
+      "parent": "7daa39f0c0b6fce2de53790aa34b6cf6",
+      "child": "9793b9b41374814632c5bd89b70b3420",
+      "type": "Runs on::Runs"
+    },
+    {
+      "sys_id": "b9de7a3a486822b900a81de9d20f87d0",
+      "parent": "40a26c600d270659f72ada9b2f32751e",
+      "child": "41357e8c30a900ad939b462de645f129",
+      "type": "Runs on::Runs"
+    },
+    {
+      "sys_id": "ffb8102d9475dbc996418cedd664d264",
+      "parent": "26d794d30db95301afbb411aa1235a8c",
+      "child": "c04a96c4f3b63fe1d184332417e8392a",
+      "type": "Runs on::Runs"
+    },
+    {
+      "sys_id": "89e06ab37250ee18260a5962dd81b7f5",
+      "parent": "989bc4da9b37a22b6a8a616fc3b290d0",
+      "child": "44b591f797ac6aa8bb2488a3d36357b6",
+      "type": "Runs on::Runs"
+    },
+    {
+      "sys_id": "c34b9fbb8d4a75b8551ac8ea585a0afa",
+      "parent": "9191b3634e2d66456dc7cac7fd72b050",
+      "child": "a6846099f7294951859131d2bbda0242",
+      "type": "Runs on::Runs"
+    },
+    {
+      "sys_id": "5260001eeecf67d2749176f46090d697",
+      "parent": "8d4f5d272c7f0b793d67cde92834e4c0",
+      "child": "b380c73a989d9d4ae15ca6664797b2c9",
+      "type": "Runs on::Runs"
+    },
+    {
+      "sys_id": "9261549d3d225c30b28f41defb140bc3",
+      "parent": "49c13de73b4206c5085b15fb4a8ff810",
+      "child": "ff002d4d902059e4ff9ab5c29f044aed",
+      "type": "Runs on::Runs"
+    },
+    {
+      "sys_id": "69288e92c68a152fdb23aa8c3bcabf85",
+      "parent": "ef04e57dcdccc33aa9434aa096fc734d",
+      "child": "bf780e3ff6b751f79b7492459b1bc895",
+      "type": "Runs on::Runs"
+    },
+    {
+      "sys_id": "b489d0707914f8a8bea4ff31517400f8",
+      "parent": "0f44704f1247ea4e246998e8d39e198b",
+      "child": "146d3f31fc377a4c4a15544dc5e7ce8a",
+      "type": "Runs on::Runs"
+    },
+    {
+      "sys_id": "2051acef097a1e10f6febc0e7ecddbaf",
+      "parent": "45b1ed25f1533ae8670acc5cb321bf21",
+      "child": "989bc4da9b37a22b6a8a616fc3b290d0",
+      "type": "Depends on::Used by"
+    },
+    {
+      "sys_id": "54fd9ad39716108ef72169bb80962718",
+      "parent": "45b1ed25f1533ae8670acc5cb321bf21",
+      "child": "0f44704f1247ea4e246998e8d39e198b",
+      "type": "Depends on::Used by"
+    },
+    {
+      "sys_id": "d85480f0dfcaf0b719b17e80dea4ae17",
+      "parent": "45b1ed25f1533ae8670acc5cb321bf21",
+      "child": "88bd13d1b540b30e039f3a254d6168bd",
+      "type": "Depends on::Used by"
+    },
+    {
+      "sys_id": "b8f2142303edd1f874f93d17e912b4bf",
+      "parent": "e3b137fc0a3450fc9918ee461497d658",
+      "child": "9191b3634e2d66456dc7cac7fd72b050",
+      "type": "Depends on::Used by"
+    },
+    {
+      "sys_id": "a79fbfafdef5768968f45bce24e75e8e",
+      "parent": "e3b137fc0a3450fc9918ee461497d658",
+      "child": "98c7472a864e9a13c29cfc0cfa02eaec",
+      "type": "Depends on::Used by"
+    },
+    {
+      "sys_id": "783089301327f1bc2784378ff84f16b3",
+      "parent": "e3b137fc0a3450fc9918ee461497d658",
+      "child": "8d4f5d272c7f0b793d67cde92834e4c0",
+      "type": "Depends on::Used by"
+    },
+    {
+      "sys_id": "148f8b74a65bb1f265c17795b15516bc",
+      "parent": "3a9aca5e176132ed069f14f140181c6e",
+      "child": "40a26c600d270659f72ada9b2f32751e",
+      "type": "Depends on::Used by"
+    },
+    {
+      "sys_id": "aca2b148da330aa1541cdfcdda0d4a5f",
+      "parent": "3a9aca5e176132ed069f14f140181c6e",
+      "child": "26d794d30db95301afbb411aa1235a8c",
+      "type": "Depends on::Used by"
+    },
+    {
+      "sys_id": "f4427e0b61484bb3889b78d5dbfdd97e",
+      "parent": "3a9aca5e176132ed069f14f140181c6e",
+      "child": "49c13de73b4206c5085b15fb4a8ff810",
+      "type": "Depends on::Used by"
+    },
+    {
+      "sys_id": "9e11d2cd0930aef68a80068ddf547e50",
+      "parent": "0a4c9f7f9384ec2b44feacaed248a9a7",
+      "child": "26d794d30db95301afbb411aa1235a8c",
+      "type": "Depends on::Used by"
+    },
+    {
+      "sys_id": "af34cf65a193c4b23c19e71d118405ad",
+      "parent": "0a4c9f7f9384ec2b44feacaed248a9a7",
+      "child": "ef04e57dcdccc33aa9434aa096fc734d",
+      "type": "Depends on::Used by"
+    },
+    {
+      "sys_id": "3a3c8a71ff574e2b4991ab9bebc2026f",
+      "parent": "0a4c9f7f9384ec2b44feacaed248a9a7",
+      "child": "9191b3634e2d66456dc7cac7fd72b050",
+      "type": "Depends on::Used by"
+    },
+    {
+      "sys_id": "df615a5cb4323070a23d4c2fc2a79689",
+      "parent": "c521bf2ddc45d539c03f3538e4855aa1",
+      "child": "146d3f31fc377a4c4a15544dc5e7ce8a",
+      "type": "Connects to::Connected by"
+    },
+    {
+      "sys_id": "b1aa0f6a2a96e1e27194eae219bad7ae",
+      "parent": "c521bf2ddc45d539c03f3538e4855aa1",
+      "child": "35ebd32d9ad620ab48212ddb45b89cd9",
+      "type": "Connects to::Connected by"
+    },
+    {
+      "sys_id": "0bc610660769165fe746ccb94ca9cf07",
+      "parent": "c521bf2ddc45d539c03f3538e4855aa1",
+      "child": "d7c524a55304317faf42e12f3838b326",
+      "type": "Connects to::Connected by"
+    },
+    {
+      "sys_id": "25440fe06e417d475ff595ea5bc440f1",
+      "parent": "3f4b1a70c074718e425a609f7337c599",
+      "child": "bb026576f512c4c3b253d2186c4a37ea",
+      "type": "Connects to::Connected by"
+    },
+    {
+      "sys_id": "90e0a95b697c392387fa841a3e83b91f",
+      "parent": "3f4b1a70c074718e425a609f7337c599",
+      "child": "47229389571aa8766c307511b2b9437a",
+      "type": "Connects to::Connected by"
+    },
+    {
+      "sys_id": "2b840c672e183554cae28e66ae8a7813",
+      "parent": "3f4b1a70c074718e425a609f7337c599",
+      "child": "71710434134c6c92ec5b227cdfde4fbf",
+      "type": "Connects to::Connected by"
+    },
+    {
+      "sys_id": "7f671eec3da70577aee1e86b9ea556aa",
+      "parent": "68586eba6a34c85410714d5136c59dac",
+      "child": "b8db0672f42d47cc00d4af5974273ca3",
+      "type": "Connects to::Connected by"
+    },
+    {
+      "sys_id": "3b70b3a124a35cf29549c931e9af299d",
+      "parent": "68586eba6a34c85410714d5136c59dac",
+      "child": "146d3f31fc377a4c4a15544dc5e7ce8a",
+      "type": "Connects to::Connected by"
+    },
+    {
+      "sys_id": "75a669814104a8b5a34db7c5760debbb",
+      "parent": "68586eba6a34c85410714d5136c59dac",
+      "child": "ff002d4d902059e4ff9ab5c29f044aed",
+      "type": "Connects to::Connected by"
+    },
+    {
+      "sys_id": "8beddb12ad77e82f49a23a89e6b5a92c",
+      "parent": "560c95ee638c254c076e2bba7c5308bf",
+      "child": "a8b317fa18d0752b1825bc5430beb45f",
+      "type": "Connects to::Connected by"
+    },
+    {
+      "sys_id": "f1faf665711533f312e89d1028711733",
+      "parent": "560c95ee638c254c076e2bba7c5308bf",
+      "child": "bdd640fb06671ad11c80317fa3b1799d",
+      "type": "Connects to::Connected by"
+    },
+    {
+      "sys_id": "4c955f6a966b1964fcd6bdca5876fd09",
+      "parent": "560c95ee638c254c076e2bba7c5308bf",
+      "child": "e767dceab0e6a969e21342b0f1eedba3",
+      "type": "Connects to::Connected by"
+    },
+    {
+      "sys_id": "f1b64afed31edf1ae9ff1cae41c8ca8c",
+      "parent": "7daa39f0c0b6fce2de53790aa34b6cf6",
+      "child": "ff002d4d902059e4ff9ab5c29f044aed",
+      "type": "Owns::Owned by"
+    },
+    {
+      "sys_id": "4b8e63d4ce7607adf7a67b947b5a611a",
+      "parent": "40a26c600d270659f72ada9b2f32751e",
+      "child": "35ebd32d9ad620ab48212ddb45b89cd9",
+      "type": "Depends on::Used by"
+    },
+    {
+      "sys_id": "1346d1a9f6802cdb77e490c71d7bc313",
+      "parent": "26d794d30db95301afbb411aa1235a8c",
+      "child": "cde22f1c56b60afcded255d0bf1e8366",
+      "type": "Runs on::Runs"
+    }
+  ]
+}

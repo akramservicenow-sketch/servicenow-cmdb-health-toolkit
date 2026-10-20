@@ -1,0 +1,65 @@
+discovery_source,fqdn,install_status,ip_address,last_discovered,location,mac_address,manufacturer,model_id,name,object_id,operational_status,os,owned_by,serial_number,service_classification,support_group,sys_class_name,sys_id,version
+ServiceNow,,1,10.30.0.16,2026-09-30 08:00:00,,,,,vm015,vm-f2b43abf,1,,user-0285,,,grp-network-eng,cmdb_ci_vm_instance,b380c73a989d9d4ae15ca6664797b2c9,
+ServiceNow,sw-core-01.example.internal,1,,2026-09-24 17:00:00,DC-West-02,02:A2:E2:DA:E4:51,Synthetic Vendor C,model-982,sw-core-01,,1,,user-0399,SYNM95DRH5J5,,grp-linux-ops,cmdb_ci_ip_switch,c521bf2ddc45d539c03f3538e4855aa1,
+ServiceNow,srvwin006.example.internal,1,10.20.0.7,2026-09-28 08:00:00,DC-East-01,02:A5:FA:09:39:B9,Synthetic Vendor B,model-345,srvwin006,,1,Windows 2022 Datacenter,user-0257,SYNGV8NKZL9A,,grp-network-eng,cmdb_ci_win_server,b8db0672f42d47cc00d4af5974273ca3,
+ServiceNow,srvlx005.example.internal,1,10.20.0.6,2026-09-23 22:00:00,DC-West-02,0249.8747.7e86,Synthetic Vendor A,model-400,srvlx005,,1,Linux Red Hat,user-0261,SYNDHKL3E005,,grp-windows-ops,cmdb_ci_linux_server,ff5e9ff0ff50bde4382567b85cabcc97,
+Service Mapping,,1,,2026-09-24 10:00:00,,,,,orders-web-07,,1,,user-0116,,,grp-dba,cmdb_ci_appl,989bc4da9b37a22b6a8a616fc3b290d0,4.4.18
+Manual Entry,,1,,2026-09-26 19:00:00,,,,,legacy-batch-01,,1,,user-0188,,,grp-dba,cmdb_ci_appl,21d53971336749b52cf6bf756a5e6920,0.9.1
+Service Mapping,,1,,2026-09-30 23:00:00,,,,,auth-gateway-03,,1,,,,,,cmdb_ci_appl,88bd13d1b540b30e039f3a254d6168bd,5.4.4
+ServiceNow,srvlx017.example.internal,1,10.20.0.18,2026-09-26 13:00:00,DC-East-01,02:37:DE:B0:A0:DF,Synthetic Vendor C,model-623,srvlx017,,1,Linux Ubuntu,user-0396,SYN81XBHSMSC,,grp-linux-ops,cmdb_ci_linux_server,dd463c09475287aa5408f9ac6601ddd0,
+ServiceNow,srvlx001.example.internal,1,10.20.0.2,2026-09-27 20:00:00,DC-East-01,02:0D:65:D6:70:E5,Synthetic Vendor C,model-384,srvlx001,,1,Linux Red Hat,user-0126,SYNGF3CBFPQ8,,grp-network-eng,cmdb_ci_linux_server,bdd640fb06671ad11c80317fa3b1799d,
+Manual,,1,,,,,,,Business App Service 01,,1,,user-0277,,Application Service,grp-dba,cmdb_ci_service_discovered,45b1ed25f1533ae8670acc5cb321bf21,
+ServiceNow,srvlx011.example.internal,1,10.20.0.12,,Colo-Central-03,02:50:1D:29:5F:23,Synthetic Vendor C,model-169,srvlx011,,1,Linux Red Hat,user-0339,SYNNUPDDWDD6,,grp-dba,cmdb_ci_linux_server,bb026576f512c4c3b253d2186c4a37ea,
+ServiceNow,,1,10.30.0.11,2026-09-28 11:00:00,,,,,vm010,vm-2d174fc9,1,,user-0363,,,grp-app-support,cmdb_ci_vm_instance,a2b5b4985cb85aedf5f62c976efb63b1,
+ServiceNow,,1,10.30.0.3,2026-09-29 04:00:00,,,,,vm002,,1,,,,,,cmdb_ci_vm_instance,fff9f5850d557b618a175dfebfc00dc8,
+ServiceNow,srvlx014.example.internal,1,10.20.0.15,2026-09-26 08:00:00,DC-East-01,02:42:86:52:E2:DA,Synthetic Vendor C,model-109,srvlx014,,1,Linux Red Hat,user-0105,SYN7SDF3TCAX,,grp-network-eng,cmdb_ci_linux_server,35ebd32d9ad620ab48212ddb45b89cd9,
+ServiceNow,srvlx019.example.internal,1,10.20.0.20,2026-09-26 12:00:00,Colo-Central-03,02:6D:F2:56:2B:91,Synthetic Vendor C,model-779,srvlx019,,1,Linux Ubuntu,user-0316,SYNAVUP3W544,,grp-windows-ops,cmdb_ci_linux_server,610faa3ff0bbac67aa38d0a16ba25efe,
+ServiceNow,,1,10.30.0.6,2026-09-28 15:00:00,,,,,vm005,vm-1bac5c15,1,,user-0399,,,grp-linux-ops,cmdb_ci_vm_instance,bf780e3ff6b751f79b7492459b1bc895,
+Manual,,1,,,,,,,Business App Service 04,,1,,user-0241,,Application Service,grp-windows-ops,cmdb_ci_service_discovered,0a4c9f7f9384ec2b44feacaed248a9a7,
+ServiceNow,srvlx013.example.internal,1,10.20.0.14,2026-09-27 08:00:00,DC-East-01,02:9A:04:99:35:44,Synthetic Vendor B,model-218,srvlx013,,1,Linux Red Hat,user-0038,SYNSJYERZUL4,,grp-linux-ops,cmdb_ci_linux_server,ff002d4d902059e4ff9ab5c29f044aed,
+ServiceNow,srvlx002.example.internal,1,10.20.0.3,2026-09-25 21:00:00,DC-East-01,02:C1:28:96:B9:62,Synthetic Vendor C,model-171,srvlx002,,1,Linux Red Hat,user-0111,SYNF0GYYSC5H,,grp-windows-ops,cmdb_ci_linux_server,47229389571aa8766c307511b2b9437a,
+ServiceNow,,1,10.30.0.8,2026-09-26 03:00:00,,,,,vm007,vm-99b49350,1,,user-0053,,,grp-windows-ops,cmdb_ci_vm_instance,9793b9b41374814632c5bd89b70b3420,
+ServiceNow,,1,10.30.0.10,2026-09-24 09:00:00,,,,,vm009,vm-1b049863,1,,user-0007,,,grp-network-eng,cmdb_ci_vm_instance,8186a57611a726095eddbbbfa9597663,
+ServiceNow,,1,10.30.0.21,2026-09-27 14:00:00,,,,,vm020,vm-1e9b23bc,1,,user-0370,,,grp-linux-ops,cmdb_ci_vm_instance,3b048a8b405bfdc94e7ed827455ac762,
+ServiceNow,sw-core-02.example.internal,1,,2026-09-23 04:00:00,Colo-Central-03,02:29:46:4D:76:C4,Synthetic Vendor C,model-256,sw-core-02,,1,,user-0393,SYNRT4EURTXW,,grp-network-eng,cmdb_ci_ip_switch,3f4b1a70c074718e425a609f7337c599,
+ServiceNow,srvlx004.example.internal,1,10.20.0.5,2026-09-30 14:00:00,DC-West-02,02:49:87:47:7E:86,Synthetic Vendor C,model-698,srvlx004,,1,Linux Ubuntu,user-0118,SYN1TEPWP715,,grp-linux-ops,cmdb_ci_linux_server,d7c524a55304317faf42e12f3838b326,
+ServiceNow,,1,10.30.0.20,2026-09-25 02:00:00,,,,,vm019,vm-7428a656,1,,user-0170,,,grp-dba,cmdb_ci_vm_instance,bef59fe6ff233d5f6cedd15d58007c02,
+Service Mapping,,1,,2026-09-29 12:00:00,,,,,search-index-05,,1,,user-0059,,,grp-app-support,cmdb_ci_appl,40a26c600d270659f72ada9b2f32751e,4.1.18
+ServiceNow,,1,10.30.0.5,2026-09-26 13:00:00,,,,,vm004,vm-2af43ab7,1,,user-0239,,,grp-windows-ops,cmdb_ci_vm_instance,90604f621d48a071ab61a7b1793b4c32,
+ServiceNow,srvwin015.example.internal,1,10.20.0.16,2026-09-30 13:00:00,DC-East-01,02:7F:34:B5:D0:4F,Synthetic Vendor A,model-985,srvwin015,,1,Windows 2022 Datacenter,user-0280,SYNK3JCVZCYP,,grp-windows-ops,cmdb_ci_win_server,e767dceab0e6a969e21342b0f1eedba3,
+ServiceNow,,1,10.30.0.13,2026-09-29 16:00:00,,,,,vm012,vm-e1b294de,1,,user-0126,,,grp-network-eng,cmdb_ci_vm_instance,44b591f797ac6aa8bb2488a3d36357b6,
+ServiceNow,srvwin012.example.internal,1,10.20.0.13,2026-09-30 05:00:00,DC-West-02,02:CA:43:99:EA:A1,Synthetic Vendor A,model-109,srvwin012,,1,Windows 2022 Datacenter,,SYNF29WSPWRS,,,cmdb_ci_win_server,e3e9de99f10c718b1eb0e38a675dd5af,
+ServiceNow,sw-core-03.example.internal,1,,2026-09-23 11:00:00,DC-West-02,02:98:C7:D6:70:F9,Synthetic Vendor A,model-379,sw-core-03,,1,,user-0278,SYNDP20B06AY,,grp-network-eng,cmdb_ci_ip_switch,68586eba6a34c85410714d5136c59dac,
+Service Mapping,,1,,2026-09-29 18:00:00,,,,,inventory-svc-08,,1,,user-0031,,,grp-dba,cmdb_ci_appl,9191b3634e2d66456dc7cac7fd72b050,2.4.2
+ServiceNow,srvwin018.example.internal,1,10.20.0.19,2026-09-25 00:00:00,DC-East-01,02:9E:D1:A7:CE:97,Synthetic Vendor C,model-230,srvwin018,,1,Windows 2022 Datacenter,user-0363,SYN9NZ3EXWHV,,grp-linux-ops,cmdb_ci_win_server,41357e8c30a900ad939b462de645f129,
+ServiceNow,,1,10.30.0.14,2026-09-24 14:00:00,,,,,vm013,vm-0758e201,1,,user-0313,,,grp-dba,cmdb_ci_vm_instance,76f72255c01f36bf3e6dd58b7367c28d,
+Service Mapping,,1,,2026-09-26 22:00:00,,,,,billing-api-06,,1,,user-0289,,,grp-windows-ops,cmdb_ci_appl,26d794d30db95301afbb411aa1235a8c,2.1.17
+Service Mapping,,1,,2026-09-26 09:00:00,,,,,reporting-etl-04,,1,,user-0007,,,grp-linux-ops,cmdb_ci_appl,7daa39f0c0b6fce2de53790aa34b6cf6,4.7.10
+ServiceNow,,1,10.30.0.17,2026-09-27 02:00:00,,,,,vm016,vm-79e13cea,1,,user-0251,,,grp-app-support,cmdb_ci_vm_instance,b856d0353dc9829015eabb2730e912f2,
+ServiceNow,srvlx010.example.internal,1,10.20.0.11,2026-06-28 00:00:00,DC-West-02,02:1E:54:C2:01:C7,Synthetic Vendor B,model-902,srvlx010,,1,Linux Ubuntu,user-0051,SYNAFRL276P1,,grp-dba,cmdb_ci_linux_server,71710434134c6c92ec5b227cdfde4fbf,
+ServiceNow,,1,10.30.0.15,2026-09-25 16:00:00,,,,,vm014,vm-57207246,1,,user-0109,,,grp-app-support,cmdb_ci_vm_instance,2e8d0e87533420e6d9d80b8d7e8adee7,
+Service Mapping,,1,,2026-09-26 10:00:00,,,,,billing-api-12,,1,,user-0158,,,grp-windows-ops,cmdb_ci_appl,0f44704f1247ea4e246998e8d39e198b,1.7.9
+Service Mapping,,1,,2026-09-27 15:00:00,,,,,inventory-svc-02,,1,,user-0052,,,grp-network-eng,cmdb_ci_appl,98c7472a864e9a13c29cfc0cfa02eaec,
+ServiceNow,sw-core-04.example.internal,1,,2026-09-28 10:00:00,DC-West-02,02:19:85:C2:A7:6C,Synthetic Vendor B,model-434,sw-core-04,,1,,user-0371,SYNJB1BF3J5M,,grp-app-support,cmdb_ci_ip_switch,560c95ee638c254c076e2bba7c5308bf,
+Manual Entry,srvwin006.example.internal,1,10.20.0.7,2026-09-28 08:00:00,DC-East-01,02:B7:97:97:0B:CA,Synthetic Vendor B,model-345,srvwin006.example.internal,,1,Windows 2022 Datacenter,user-0257,SYNS5VN06GR0,,grp-network-eng,cmdb_ci_win_server,b0b862ef6c9f82b9f6478986a3917c99,
+ServiceNow,,1,10.30.0.2,2026-08-17 00:00:00,,,,,vm001,vm-04f64d86,1,,user-0130,,,grp-app-support,cmdb_ci_vm_instance,473bd358610e6a64e1301617c2dff335,
+Service Mapping,,1,,2026-09-23 22:00:00,,,,,reporting-etl-10,,1,,user-0360,,,grp-network-eng,cmdb_ci_appl,49c13de73b4206c5085b15fb4a8ff810,2.4.20
+ServiceNow,,1,10.30.0.12,2026-09-23 10:00:00,,,,,vm011,vm-6f81cf4f,1,,user-0316,,,grp-network-eng,cmdb_ci_vm_instance,a6846099f7294951859131d2bbda0242,
+ServiceNow,srvlx016.example.internal,1,10.20.0.17,2026-09-28 01:00:00,DC-East-01,02:71:66:EB:B3:9C,Synthetic Vendor A,model-328,srvlx016,,1,Linux Red Hat,user-0013,SYNX2RTLG0C6,,grp-app-support,cmdb_ci_linux_server,2d534dd0cf8ebc5accc56569f9e8a369,
+ServiceNow,srvlx007.example.internal,1,10.20.0.8,2026-09-23 22:00:00,DC-East-01,00:00:00:00:00:00,Synthetic Vendor A,model-353,,,1,Linux Red Hat,user-0044,To Be Filled By O.E.M.,,grp-linux-ops,cmdb_ci_linux_server,f26b4776913e4de2e0c53cb83da9c2a9,
+Service Mapping,,1,,2026-09-29 07:00:00,,,,,search-index-11,,1,,user-0218,,,grp-windows-ops,cmdb_ci_appl,ef04e57dcdccc33aa9434aa096fc734d,2.2.8
+ServiceNow,,1,10.30.0.9,2026-09-25 07:00:00,,,,,vm008,vm-6daa2e68,1,,user-0022,,,grp-dba,cmdb_ci_vm_instance,fbdd3933cbd58bf61efd76e9ce3714af,
+Manual,,1,,,,,,,Business App Service 02,,1,,user-0377,,Application Service,grp-app-support,cmdb_ci_service_discovered,e3b137fc0a3450fc9918ee461497d658,
+Manual Entry,srvlx-legacy-01.example.internal,1,10.20.9.9,2026-09-23 15:00:00,Colo-Central-03,02:E1:11:BA:43:2E,Synthetic Vendor B,model-434,srvlx-legacy-01,,1,Linux Red Hat,user-0311,SYNQYQNSJGCV,,grp-linux-ops,cmdb_ci_linux_server,dd750e9890e0b95f0212b554464458b4,
+ServiceNow,srvwin003.example.internal,1,10.20.0.4,2026-09-24 16:00:00,Colo-Central-03,02:7D:53:EC:C2:8A,Synthetic Vendor C,model-804,srvwin003,,1,Windows 2022 Datacenter,user-0052,synf-0gyysc5h,,grp-windows-ops,cmdb_ci_win_server,146d3f31fc377a4c4a15544dc5e7ce8a,
+ServiceNow,srvlx-retired-01.example.internal,7,10.20.9.10,2023-01-01 00:00:00,Colo-Central-03,02:37:77:F1:0C:A7,Synthetic Vendor C,model-326,srvlx-retired-01,,6,Linux Red Hat,,SYN1ASH5ZS0Z,,,cmdb_ci_linux_server,39c1e262f76c8edec11012662408a6dc,
+ServiceNow,srvlx008.example.internal,1,10.20.0.9,2026-09-28 00:00:00,,02:8E:F8:6D:43:F2,Synthetic Vendor A,model-903,srvlx008,,1,,user-0302,SYNEDQECXE8R,,grp-windows-ops,cmdb_ci_linux_server,8dcdcd03969b666205628059568cc69b,
+ServiceNow,,1,10.30.0.4,2026-09-28 17:00:00,,,,,vm003,vm-20500494,1,,user-0011,,,grp-windows-ops,cmdb_ci_vm_instance,3f4df561f319c12507f194f9c1156d6d,
+ServiceNow,,1,10.30.0.19,2026-09-23 07:00:00,,,,,vm018,vm-87ea7ff5,1,,user-0189,,,grp-dba,cmdb_ci_vm_instance,a9f948b24e6384bb3e493f43b118f68d,
+ServiceNow,srvlx020.example.internal,1,10.20.0.21,2026-09-26 17:00:00,Colo-Central-03,02:63:C4:FD:CC:7C,Synthetic Vendor A,model-771,srvlx020,,1,Linux Red Hat,user-0345,SYNNKBCR6E52,,grp-windows-ops,cmdb_ci_linux_server,c04a96c4f3b63fe1d184332417e8392a,
+Service Mapping,,1,,2026-09-27 01:00:00,,,,,orders-web-01,,1,,user-0099,,,grp-windows-ops,cmdb_ci_appl,c31edbbcf36cb62b892e6161be2d740a,4.4.18
+Manual,,1,,,,,,,Business App Service 03,,1,,user-0301,,Application Service,grp-dba,cmdb_ci_service_discovered,3a9aca5e176132ed069f14f140181c6e,
+ServiceNow,,1,10.30.0.7,2026-09-24 12:00:00,,,,,vm006,vm-f1043785,1,,user-0347,,,grp-dba,cmdb_ci_vm_instance,4fdc6e1bedcb8cb60692dc639424aed5,
+Service Mapping,,1,,2026-09-30 11:00:00,,,,,auth-gateway-09,,1,,user-0081,,,grp-linux-ops,cmdb_ci_appl,8d4f5d272c7f0b793d67cde92834e4c0,4.9.15
+ServiceNow,,1,10.30.0.18,2026-09-26 17:00:00,,,,,vm017,vm-6786d506,1,,user-0048,,,grp-linux-ops,cmdb_ci_vm_instance,72bb912d7da67785b63b4dc3a559e463,
+ServiceNow,srvwin009.example.internal,1,,2026-09-24 11:00:00,,02:61:E5:47:D8:5D,,,srvwin009,,1,Windows 2022 Datacenter,user-0182,SYN5DGD1XGRN,,grp-app-support,cmdb_ci_win_server,a8b317fa18d0752b1825bc5430beb45f,
