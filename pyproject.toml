@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "servicenow-cmdb-health-toolkit"
+version = "0.1.0"
+description = "CMDB data-quality checks (completeness, correctness, compliance) for ServiceNow exports and live instances."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Shaik Akram" }]
+requires-python = ">=3.11"
+dependencies = ["requests>=2.31"]
+keywords = ["servicenow", "cmdb", "csdm", "data-quality", "itsm"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "responses>=0.25", "ruff>=0.5"]
+
+[project.scripts]
+cmdb-health = "cmdb_health.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/akramservicenow-sketch/servicenow-cmdb-health-toolkit"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+src = ["src", "tests", "scripts"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "S", "SIM", "RUF"]
+ignore = ["S311"]  # random is used only for synthetic data and backoff jitter
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S101", "S105", "S106"]
+"src/cmdb_health/reports/html_report.py" = ["E501"]  # inline CSS/JS blobs
+
+[tool.ruff.lint.isort]
+known-first-party = ["cmdb_health"]
+known-local-folder = ["conftest"]
