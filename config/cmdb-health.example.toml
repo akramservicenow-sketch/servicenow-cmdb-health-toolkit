@@ -1,0 +1,26 @@
+# Example overrides for cmdb-health. Any key omitted keeps its default.
+# Class-keyed tables (mandatory_attributes, identification_rules,
+# class_hierarchy, dimension_weights) are merged with the defaults, so you
+# only list the classes you want to add or change.
+
+stale_days = 14
+stale_check_classes = ["cmdb_ci_hardware", "cmdb_ci_vm_instance"]
+ownership_fields = ["support_group", "owned_by", "managed_by"]
+disabled_checks = []
+
+[mandatory_attributes]
+cmdb_ci_netgear = ["firmware_version"]
+cmdb_ci_db_instance = ["version", "tcp_port"]
+
+[class_hierarchy]
+cmdb_ci_aix_server = "cmdb_ci_server"
+
+[dimension_weights]
+completeness = 1.0
+correctness = 1.5   # duplicates and staleness hurt incident routing the most
+compliance = 1.0
+
+[[relationship_rules]]
+parent = "cmdb_ci_db_instance"
+child = "cmdb_ci_server"
+types = ["Runs on::Runs"]
