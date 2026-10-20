@@ -1,0 +1,39 @@
+CMDB Health Report
+============================================================
+Source:          local:cis.json
+As of:           2026-10-01 00:00 UTC
+CIs loaded:      64 (63 in scope)
+Relationships:   59
+
+OVERALL SCORE     93.2  [###################.]
+  Completeness    93.7  [###################.]
+  Correctness     92.2  [##################..]
+  Compliance      93.8  [###################.]
+
+Check                        Dimension      Eval  Fail  Score
+------------------------------------------------------------
+MISSING_MANDATORY            completeness     63     4   93.7
+DUPLICATE_CI                 correctness      63     6   90.5
+ORPHAN_CI                    correctness      59     6   89.8
+STALE_CI                     correctness      46     3   93.5
+IDENTIFICATION_RULE          correctness      63     3   95.2
+INVALID_RELATIONSHIP         compliance       40     3   92.5
+UNOWNED_CI                   compliance       63     3   95.2
+
+Findings: 28 (high 10, medium 15, low 3)
+Top 15 findings:
+  [HIGH  ] DUPLICATE_CI         srvlx002: Possible duplicate matched on serial_number
+  [HIGH  ] DUPLICATE_CI         srvlx004: Possible duplicate matched on mac_address
+  [HIGH  ] DUPLICATE_CI         srvlx005: Possible duplicate matched on mac_address
+  [HIGH  ] DUPLICATE_CI         srvwin003: Possible duplicate matched on serial_number
+  [HIGH  ] DUPLICATE_CI         srvwin006: Possible duplicate matched on name+class
+  [HIGH  ] DUPLICATE_CI         srvwin006.example.internal: Possible duplicate matched on name+class
+  [HIGH  ] IDENTIFICATION_RULE  f26b4776913e4de2e0c53cb83da9c2a9: No identifier entry of rule 'cmdb_ci_hardware' can be satisfied; IRE would reject or insert a new CI
+  [HIGH  ] INVALID_RELATIONSHIP billing-api-06: Relationship 1346d1a9f6802cdb77e490c71d7bc313 references a child CI that does not exist
+  [HIGH  ] MISSING_MANDATORY    srvwin009: Missing: manufacturer, model_id, location, ip_address
+  [HIGH  ] STALE_CI             srvlx011: CI has never been discovered
+  [MEDIUM] INVALID_RELATIONSHIP reporting-etl-04: Relationship type 'Owns::Owned by' is not on the allow-list
+  [MEDIUM] MISSING_MANDATORY    f26b4776913e4de2e0c53cb83da9c2a9: Missing: name, serial_number
+  [MEDIUM] MISSING_MANDATORY    inventory-svc-02: Missing: version
+  [MEDIUM] MISSING_MANDATORY    srvlx008: Missing: location, os
+  [MEDIUM] ORPHAN_CI            f26b4776913e4de2e0c53cb83da9c2a9: CI has no relationships

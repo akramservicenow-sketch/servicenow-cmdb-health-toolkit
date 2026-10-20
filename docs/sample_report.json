@@ -1,0 +1,492 @@
+{
+  "tool": "cmdb-health",
+  "version": "0.1.0",
+  "generated_at": "2026-10-19T19:23:41.948730+00:00",
+  "as_of": "2026-10-01T00:00:00+00:00",
+  "source": "local:cis.json",
+  "summary": {
+    "total_cis": 64,
+    "in_scope_cis": 63,
+    "total_relationships": 59,
+    "overall_score": 93.2,
+    "dimension_scores": {
+      "completeness": 93.7,
+      "correctness": 92.2,
+      "compliance": 93.8
+    },
+    "severity_counts": {
+      "high": 10,
+      "medium": 15,
+      "low": 3
+    }
+  },
+  "checks": [
+    {
+      "check_id": "MISSING_MANDATORY",
+      "title": "Missing mandatory attributes",
+      "dimension": "completeness",
+      "evaluated": 63,
+      "failing_cis": 4,
+      "findings": 4,
+      "score": 93.7
+    },
+    {
+      "check_id": "DUPLICATE_CI",
+      "title": "Duplicate CIs",
+      "dimension": "correctness",
+      "evaluated": 63,
+      "failing_cis": 6,
+      "findings": 6,
+      "score": 90.5
+    },
+    {
+      "check_id": "ORPHAN_CI",
+      "title": "Orphan CIs",
+      "dimension": "correctness",
+      "evaluated": 59,
+      "failing_cis": 6,
+      "findings": 6,
+      "score": 89.8
+    },
+    {
+      "check_id": "STALE_CI",
+      "title": "Stale CIs",
+      "dimension": "correctness",
+      "evaluated": 46,
+      "failing_cis": 3,
+      "findings": 3,
+      "score": 93.5
+    },
+    {
+      "check_id": "IDENTIFICATION_RULE",
+      "title": "Identification rule simulation",
+      "dimension": "correctness",
+      "evaluated": 63,
+      "failing_cis": 3,
+      "findings": 3,
+      "score": 95.2
+    },
+    {
+      "check_id": "INVALID_RELATIONSHIP",
+      "title": "Invalid relationship types",
+      "dimension": "compliance",
+      "evaluated": 40,
+      "failing_cis": 3,
+      "findings": 3,
+      "score": 92.5
+    },
+    {
+      "check_id": "UNOWNED_CI",
+      "title": "Unowned CIs",
+      "dimension": "compliance",
+      "evaluated": 63,
+      "failing_cis": 3,
+      "findings": 3,
+      "score": 95.2
+    }
+  ],
+  "findings": [
+    {
+      "check_id": "DUPLICATE_CI",
+      "dimension": "correctness",
+      "severity": "high",
+      "ci_sys_id": "47229389571aa8766c307511b2b9437a",
+      "ci_name": "srvlx002",
+      "ci_class": "cmdb_ci_linux_server",
+      "message": "Possible duplicate matched on serial_number",
+      "details": {
+        "matched_on": {
+          "serial_number": {
+            "key": "SYNF0GYYSC5H",
+            "duplicates_of": [
+              "146d3f31fc377a4c4a15544dc5e7ce8a"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "check_id": "DUPLICATE_CI",
+      "dimension": "correctness",
+      "severity": "high",
+      "ci_sys_id": "d7c524a55304317faf42e12f3838b326",
+      "ci_name": "srvlx004",
+      "ci_class": "cmdb_ci_linux_server",
+      "message": "Possible duplicate matched on mac_address",
+      "details": {
+        "matched_on": {
+          "mac_address": {
+            "key": "024987477e86",
+            "duplicates_of": [
+              "ff5e9ff0ff50bde4382567b85cabcc97"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "check_id": "DUPLICATE_CI",
+      "dimension": "correctness",
+      "severity": "high",
+      "ci_sys_id": "ff5e9ff0ff50bde4382567b85cabcc97",
+      "ci_name": "srvlx005",
+      "ci_class": "cmdb_ci_linux_server",
+      "message": "Possible duplicate matched on mac_address",
+      "details": {
+        "matched_on": {
+          "mac_address": {
+            "key": "024987477e86",
+            "duplicates_of": [
+              "d7c524a55304317faf42e12f3838b326"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "check_id": "DUPLICATE_CI",
+      "dimension": "correctness",
+      "severity": "high",
+      "ci_sys_id": "146d3f31fc377a4c4a15544dc5e7ce8a",
+      "ci_name": "srvwin003",
+      "ci_class": "cmdb_ci_win_server",
+      "message": "Possible duplicate matched on serial_number",
+      "details": {
+        "matched_on": {
+          "serial_number": {
+            "key": "SYNF0GYYSC5H",
+            "duplicates_of": [
+              "47229389571aa8766c307511b2b9437a"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "check_id": "DUPLICATE_CI",
+      "dimension": "correctness",
+      "severity": "high",
+      "ci_sys_id": "b8db0672f42d47cc00d4af5974273ca3",
+      "ci_name": "srvwin006",
+      "ci_class": "cmdb_ci_win_server",
+      "message": "Possible duplicate matched on name+class",
+      "details": {
+        "matched_on": {
+          "name+class": {
+            "key": "cmdb_ci_win_server|srvwin006",
+            "duplicates_of": [
+              "b0b862ef6c9f82b9f6478986a3917c99"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "check_id": "DUPLICATE_CI",
+      "dimension": "correctness",
+      "severity": "high",
+      "ci_sys_id": "b0b862ef6c9f82b9f6478986a3917c99",
+      "ci_name": "srvwin006.example.internal",
+      "ci_class": "cmdb_ci_win_server",
+      "message": "Possible duplicate matched on name+class",
+      "details": {
+        "matched_on": {
+          "name+class": {
+            "key": "cmdb_ci_win_server|srvwin006",
+            "duplicates_of": [
+              "b8db0672f42d47cc00d4af5974273ca3"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "check_id": "IDENTIFICATION_RULE",
+      "dimension": "correctness",
+      "severity": "high",
+      "ci_sys_id": "f26b4776913e4de2e0c53cb83da9c2a9",
+      "ci_name": "",
+      "ci_class": "cmdb_ci_linux_server",
+      "message": "No identifier entry of rule 'cmdb_ci_hardware' can be satisfied; IRE would reject or insert a new CI",
+      "details": {
+        "rule_class": "cmdb_ci_hardware"
+      }
+    },
+    {
+      "check_id": "INVALID_RELATIONSHIP",
+      "dimension": "compliance",
+      "severity": "high",
+      "ci_sys_id": "26d794d30db95301afbb411aa1235a8c",
+      "ci_name": "billing-api-06",
+      "ci_class": "cmdb_ci_appl",
+      "message": "Relationship 1346d1a9f6802cdb77e490c71d7bc313 references a child CI that does not exist",
+      "details": {
+        "relationship": "1346d1a9f6802cdb77e490c71d7bc313",
+        "type": "Runs on::Runs"
+      }
+    },
+    {
+      "check_id": "MISSING_MANDATORY",
+      "dimension": "completeness",
+      "severity": "high",
+      "ci_sys_id": "a8b317fa18d0752b1825bc5430beb45f",
+      "ci_name": "srvwin009",
+      "ci_class": "cmdb_ci_win_server",
+      "message": "Missing: manufacturer, model_id, location, ip_address",
+      "details": {
+        "missing_attributes": [
+          "manufacturer",
+          "model_id",
+          "location",
+          "ip_address"
+        ]
+      }
+    },
+    {
+      "check_id": "STALE_CI",
+      "dimension": "correctness",
+      "severity": "high",
+      "ci_sys_id": "bb026576f512c4c3b253d2186c4a37ea",
+      "ci_name": "srvlx011",
+      "ci_class": "cmdb_ci_linux_server",
+      "message": "CI has never been discovered",
+      "details": {}
+    },
+    {
+      "check_id": "INVALID_RELATIONSHIP",
+      "dimension": "compliance",
+      "severity": "medium",
+      "ci_sys_id": "7daa39f0c0b6fce2de53790aa34b6cf6",
+      "ci_name": "reporting-etl-04",
+      "ci_class": "cmdb_ci_appl",
+      "message": "Relationship type 'Owns::Owned by' is not on the allow-list",
+      "details": {
+        "relationship": "f1b64afed31edf1ae9ff1cae41c8ca8c",
+        "child": "ff002d4d902059e4ff9ab5c29f044aed",
+        "type": "Owns::Owned by"
+      }
+    },
+    {
+      "check_id": "MISSING_MANDATORY",
+      "dimension": "completeness",
+      "severity": "medium",
+      "ci_sys_id": "f26b4776913e4de2e0c53cb83da9c2a9",
+      "ci_name": "",
+      "ci_class": "cmdb_ci_linux_server",
+      "message": "Missing: name, serial_number",
+      "details": {
+        "missing_attributes": [
+          "name",
+          "serial_number"
+        ]
+      }
+    },
+    {
+      "check_id": "MISSING_MANDATORY",
+      "dimension": "completeness",
+      "severity": "medium",
+      "ci_sys_id": "98c7472a864e9a13c29cfc0cfa02eaec",
+      "ci_name": "inventory-svc-02",
+      "ci_class": "cmdb_ci_appl",
+      "message": "Missing: version",
+      "details": {
+        "missing_attributes": [
+          "version"
+        ]
+      }
+    },
+    {
+      "check_id": "MISSING_MANDATORY",
+      "dimension": "completeness",
+      "severity": "medium",
+      "ci_sys_id": "8dcdcd03969b666205628059568cc69b",
+      "ci_name": "srvlx008",
+      "ci_class": "cmdb_ci_linux_server",
+      "message": "Missing: location, os",
+      "details": {
+        "missing_attributes": [
+          "location",
+          "os"
+        ]
+      }
+    },
+    {
+      "check_id": "ORPHAN_CI",
+      "dimension": "correctness",
+      "severity": "medium",
+      "ci_sys_id": "f26b4776913e4de2e0c53cb83da9c2a9",
+      "ci_name": "",
+      "ci_class": "cmdb_ci_linux_server",
+      "message": "CI has no relationships",
+      "details": {}
+    },
+    {
+      "check_id": "ORPHAN_CI",
+      "dimension": "correctness",
+      "severity": "medium",
+      "ci_sys_id": "21d53971336749b52cf6bf756a5e6920",
+      "ci_name": "legacy-batch-01",
+      "ci_class": "cmdb_ci_appl",
+      "message": "CI has no relationships",
+      "details": {}
+    },
+    {
+      "check_id": "ORPHAN_CI",
+      "dimension": "correctness",
+      "severity": "medium",
+      "ci_sys_id": "dd750e9890e0b95f0212b554464458b4",
+      "ci_name": "srvlx-legacy-01",
+      "ci_class": "cmdb_ci_linux_server",
+      "message": "CI has no relationships",
+      "details": {}
+    },
+    {
+      "check_id": "ORPHAN_CI",
+      "dimension": "correctness",
+      "severity": "medium",
+      "ci_sys_id": "610faa3ff0bbac67aa38d0a16ba25efe",
+      "ci_name": "srvlx019",
+      "ci_class": "cmdb_ci_linux_server",
+      "message": "CI has no relationships",
+      "details": {}
+    },
+    {
+      "check_id": "ORPHAN_CI",
+      "dimension": "correctness",
+      "severity": "medium",
+      "ci_sys_id": "b0b862ef6c9f82b9f6478986a3917c99",
+      "ci_name": "srvwin006.example.internal",
+      "ci_class": "cmdb_ci_win_server",
+      "message": "CI has no relationships",
+      "details": {}
+    },
+    {
+      "check_id": "ORPHAN_CI",
+      "dimension": "correctness",
+      "severity": "medium",
+      "ci_sys_id": "e3e9de99f10c718b1eb0e38a675dd5af",
+      "ci_name": "srvwin012",
+      "ci_class": "cmdb_ci_win_server",
+      "message": "CI has no relationships",
+      "details": {}
+    },
+    {
+      "check_id": "STALE_CI",
+      "dimension": "correctness",
+      "severity": "medium",
+      "ci_sys_id": "71710434134c6c92ec5b227cdfde4fbf",
+      "ci_name": "srvlx010",
+      "ci_class": "cmdb_ci_linux_server",
+      "message": "Last discovered 95 days ago (threshold 30)",
+      "details": {
+        "days_since_discovery": 95,
+        "last_discovered": "2026-06-28 00:00:00"
+      }
+    },
+    {
+      "check_id": "STALE_CI",
+      "dimension": "correctness",
+      "severity": "medium",
+      "ci_sys_id": "473bd358610e6a64e1301617c2dff335",
+      "ci_name": "vm001",
+      "ci_class": "cmdb_ci_vm_instance",
+      "message": "Last discovered 45 days ago (threshold 30)",
+      "details": {
+        "days_since_discovery": 45,
+        "last_discovered": "2026-08-17 00:00:00"
+      }
+    },
+    {
+      "check_id": "UNOWNED_CI",
+      "dimension": "compliance",
+      "severity": "medium",
+      "ci_sys_id": "88bd13d1b540b30e039f3a254d6168bd",
+      "ci_name": "auth-gateway-03",
+      "ci_class": "cmdb_ci_appl",
+      "message": "No owner: support_group and owned_by are empty",
+      "details": {
+        "fields": [
+          "support_group",
+          "owned_by"
+        ]
+      }
+    },
+    {
+      "check_id": "UNOWNED_CI",
+      "dimension": "compliance",
+      "severity": "medium",
+      "ci_sys_id": "e3e9de99f10c718b1eb0e38a675dd5af",
+      "ci_name": "srvwin012",
+      "ci_class": "cmdb_ci_win_server",
+      "message": "No owner: support_group and owned_by are empty",
+      "details": {
+        "fields": [
+          "support_group",
+          "owned_by"
+        ]
+      }
+    },
+    {
+      "check_id": "UNOWNED_CI",
+      "dimension": "compliance",
+      "severity": "medium",
+      "ci_sys_id": "fff9f5850d557b618a175dfebfc00dc8",
+      "ci_name": "vm002",
+      "ci_class": "cmdb_ci_vm_instance",
+      "message": "No owner: support_group and owned_by are empty",
+      "details": {
+        "fields": [
+          "support_group",
+          "owned_by"
+        ]
+      }
+    },
+    {
+      "check_id": "IDENTIFICATION_RULE",
+      "dimension": "correctness",
+      "severity": "low",
+      "ci_sys_id": "98c7472a864e9a13c29cfc0cfa02eaec",
+      "ci_name": "inventory-svc-02",
+      "ci_class": "cmdb_ci_appl",
+      "message": "Identified only by weak entry ['name'] (priority 2)",
+      "details": {
+        "rule_class": "cmdb_ci_appl",
+        "matched_entry": [
+          "name"
+        ],
+        "priority": 2
+      }
+    },
+    {
+      "check_id": "IDENTIFICATION_RULE",
+      "dimension": "correctness",
+      "severity": "low",
+      "ci_sys_id": "fff9f5850d557b618a175dfebfc00dc8",
+      "ci_name": "vm002",
+      "ci_class": "cmdb_ci_vm_instance",
+      "message": "Identified only by weak entry ['name'] (priority 2)",
+      "details": {
+        "rule_class": "cmdb_ci_vm_instance",
+        "matched_entry": [
+          "name"
+        ],
+        "priority": 2
+      }
+    },
+    {
+      "check_id": "INVALID_RELATIONSHIP",
+      "dimension": "compliance",
+      "severity": "low",
+      "ci_sys_id": "40a26c600d270659f72ada9b2f32751e",
+      "ci_name": "search-index-05",
+      "ci_class": "cmdb_ci_appl",
+      "message": "'Depends on::Used by' is not a suggested relationship between cmdb_ci_appl and cmdb_ci_linux_server (expected one of: Runs on::Runs)",
+      "details": {
+        "relationship": "4b8e63d4ce7607adf7a67b947b5a611a",
+        "child": "35ebd32d9ad620ab48212ddb45b89cd9",
+        "type": "Depends on::Used by"
+      }
+    }
+  ],
+  "metadata": {}
+}
